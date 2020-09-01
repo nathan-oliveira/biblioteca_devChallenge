@@ -12,6 +12,14 @@ export class BooksRouter {
     app.post('/books', (req: Request, res: Response, next: NextFunction) => {
       this.booksController.toSave(app, req, res, next);
     })
+
+    app.put('/books/:id', (req: Request, res: Response, next: NextFunction) => {
+      this.booksController.update(app, req, res, next);
+    })
+
+    app.delete('/books/:id', (req: Request, res: Response, next: NextFunction) => {
+      this.booksController.delete(app, req, res, next);
+    })
   }
 }
  
