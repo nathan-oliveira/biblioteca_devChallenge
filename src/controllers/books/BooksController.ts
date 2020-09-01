@@ -26,11 +26,6 @@ class BooksController implements Controller {
   public toSave(app: any, req: Request, res: Response, next: NextFunction): void {
     const resp = new ResponseClass();
     let status: number;
-    
-    // req.body.authors = req.body.autores.reduce((author: string, next: string) => `'{"${author}","${next}"}'`);
-
-    // const autores = req.body.autores.map((autor: string) => `${autor}`);
-    // req.body.autores = `{${autores.join(', ')}}`;
 
     BooksDAO.toSave(req.body, function(err: object, result: any) {
       if(err) {
