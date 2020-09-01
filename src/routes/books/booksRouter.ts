@@ -8,6 +8,10 @@ export class BooksRouter {
     app.get('/books', (req: Request, res: Response, next: NextFunction) => {
       this.booksController.list(app, req, res, next);
     })
+
+    app.post('/books', (req: Request, res: Response, next: NextFunction) => {
+      this.booksController.toSave(app, req, res, next);
+    })
   }
 }
  
