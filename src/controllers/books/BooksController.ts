@@ -32,8 +32,6 @@ class BooksController implements Controller {
         status = 401;
         resp.error = true;
         resp.msg = 'Ocorreu um erro!';
-
-        console.log(err)
       } else {
         if(result.rowCount > 0) {
           resp.msg = 'Cadastro realizado com sucesso!';
