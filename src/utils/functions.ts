@@ -5,7 +5,7 @@ class Functions {
     const resp = new ResponseClass();
     let status: number;
 
-    let respMsg = method == 'POST' ? ['realizado', 'efetuar'] : 
+    let respMsg = method.toUpperCase() == 'POST' ? ['realizado', 'efetuar'] : 
       method == 'PUT' ? ['atualizado', 'atualizar'] :
       method == 'DELETE' ? ['excluido', 'excluir'] : 'GET';
     
