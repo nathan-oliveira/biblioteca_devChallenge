@@ -14,7 +14,10 @@ O desafio encontra-se disponível nesse <a href="https://github.com/devchallenge
 ![imageGET](./db/POST.PNG)
 
 ### <b>[GET] </b> /books/
+![imageGET](./db/GET.PNG)
 
-### <b>[PUT] </b> /books/:id
+### <b>[PUT] </b> /books/:id:
+![imageGET](./db/PUT.PNG)
 
 ### <b>[DELETE] </b> /books/:id:
+![imageGET](./db/DELETE.PNG)
