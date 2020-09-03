@@ -1,11 +1,11 @@
 import ResponseClass from '@src/models/ResponseClass';
 
 class Functions {
-  static Response(err: object, result: any, method: string) {
+  static Response(err: any, result: any, method: string) {
     const resp = new ResponseClass();
     let status: number;
 
-    let respMsg = method.toUpperCase() == 'POST' ? ['realizado', 'efetuar'] : 
+    const respMsg = method.toUpperCase() == 'POST' ? ['realizado', 'efetuar'] : 
       method == 'PUT' ? ['atualizado', 'atualizar'] :
       method == 'DELETE' ? ['excluido', 'excluir'] : 'GET';
     
