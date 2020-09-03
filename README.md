@@ -3,7 +3,7 @@ O desafio é desenvolver o back-end de uma biblioteca contendo às quatro opera�
 
 O desafio encontra-se disponível nesse <a href="https://github.com/devchallenge-io/biblioteca-backend">link</a>.
 
-# Techs:
+# Techs: :book:
 - NodeJS
 - TypeScript
 - Express
