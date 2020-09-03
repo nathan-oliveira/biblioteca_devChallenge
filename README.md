@@ -11,6 +11,7 @@ O desafio encontra-se disponível nesse <a href="https://github.com/devchallenge
 - Babel
 
 ## Rotas da aplicação:
+
 ### <b>[POST] </b> /books  
 ![imageGET](./db/POST.PNG)
 
@@ -22,3 +23,10 @@ O desafio encontra-se disponível nesse <a href="https://github.com/devchallenge
 
 ### <b>[DELETE] </b> /books/:id:
 ![imageGET](./db/DELETE.PNG)
+
+
+## Como rodar? :fire:
+1. Clone este repositório.
+2. Instalar o PostgreSQL e rodar o script-table (./db/script-table.sql).
+3. Rode no seu terminal `npm i` para instalar todas as dependências necessárias do projeto.
+4. Rode no seu terminal `npm run start` para subir a aplicação no endereço `http://localhost:3000`.
