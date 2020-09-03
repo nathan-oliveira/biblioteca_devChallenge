@@ -10,11 +10,11 @@ O desafio encontra-se disponível nesse <a href="https://github.com/devchallenge
 - Babel
 
 ## Rotas da aplicação:
-## <b>[POST] </b> /books  
+### <b>[POST] </b> /books  
 ![imageGET](./db/POST.PNG)
 
-## <b>[GET] </b> /books/
+### <b>[GET] </b> /books/
 
-## <b>[PUT] </b> /books/:id
+### <b>[PUT] </b> /books/:id
 
-## <b>[DELETE] </b> /books/:id:
+### <b>[DELETE] </b> /books/:id:
