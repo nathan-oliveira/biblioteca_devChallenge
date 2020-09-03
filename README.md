@@ -6,6 +6,7 @@ O desafio encontra-se disponível nesse <a href="https://github.com/devchallenge
 # Techs:
 - NodeJS
 - TypeScript
+- Express
 - PostgreSQL
 - Babel
 
