@@ -4,7 +4,7 @@ import { Controller } from '@src/utils/interface';
 
 class IndexController implements Controller {
   public list(app: any, req: Request, res: Response, next: NextFunction): void {
-    res.json({ 
+    res.status(201).json({ 
       id: 1, 
       creator: 'Nathan Oliveira'
     });
