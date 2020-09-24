@@ -2,7 +2,7 @@ import conn from '@src/bin/key';
 
 class BooksDAO {
   static getAll(callback: any): void {
-    const sql = 'select * from bibliotecaDevChallenge.biblioteca';
+    const sql = 'select * from bibliotecaDevChallenge.biblioteca order by id desc';
     conn.query(sql, callback);
   }
 
