@@ -3,11 +3,7 @@ O desafio é desenvolver uma página para exibição de produtos utilizando VueJ
 
 O desafio encontra-se disponível nesse <a href="https://www.devchallenge.com.br/detail/5f14fad2130a5d78f89d9642">Clique aqui!</a>.
 
-Vídeo: https://www.youtube.com/embed/xnMkodyeXp4
-
-<video width="560" height="315" controls>
-  <source src="https://www.youtube.com/embed/xnMkodyeXp4" type="video/mp4">
-</video>
+Vídeo do site: https://www.youtube.com/embed/xnMkodyeXp4
 
 ## Como rodar? :fire:
 1. Clone este repositório.
