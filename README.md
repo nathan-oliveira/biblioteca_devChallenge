@@ -5,6 +5,8 @@ O desafio encontra-se disponível nesse <a href="https://www.devchallenge.com.br
 
 Vídeo:
 
+![](https://www.youtube.com/embed/xnMkodyeXp4)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xnMkodyeXp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
